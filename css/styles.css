@@ -353,6 +353,33 @@ img {
     padding-bottom: 120px;
 }
 
+.clients-title {
+    color: var(--hero-background);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.72px;
+
+}
+
+.clients-list {
+
+}
+
+.clients-item {
+
+}
+
+.clients-link {
+
+}
+
+.clients-icon {
+
+}
 
 .footer-logo {
     display: inline-block;
