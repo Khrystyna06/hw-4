@@ -60,7 +60,9 @@
       <section class="section hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-btn" type="button">Order Service</button>
+          <button class="hero-btn" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!--Features section-->
@@ -69,6 +71,11 @@
           <h2 class="features-title visually-hidden">Features of WebStudio</h2>
           <ul class="features-list list">
             <li class="features-list-item">
+              <div class="features-container-icon">
+                <svg class="features-icon" width="64" height="64">
+                  <use href="./images/sprite.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="features-item-title">Strategy</h3>
               <p class="features-item-text">
                 Our goal is to identify the business problem to walk away with
@@ -76,6 +83,11 @@
               </p>
             </li>
             <li class="features-list-item">
+              <div class="features-container-icon">
+                <svg class="features-icon" width="64" height="64">
+                  <use href="./images/sprite.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="features-item-title">Punctuality</h3>
               <p class="features-item-text">
                 Bring the key message to the brand's audience for the best price
@@ -83,6 +95,11 @@
               </p>
             </li>
             <li class="features-list-item">
+              <div class="features-container-icon">
+                <svg class="features-icon" width="64" height="64">
+                  <use href="./images/sprite.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="features-item-title">Diligence</h3>
               <p class="features-item-text">
                 Research and confirm brands that present the strongest digital
@@ -90,6 +107,11 @@
               </p>
             </li>
             <li class="features-list-item">
+              <div class="features-container-icon">
+                <svg class="features-icon" width="64" height="64">
+                  <use href="./images/sprite.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="features-item-title">Technologies</h3>
               <p class="features-item-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -146,35 +168,54 @@
               <div class="team-worker-content">
                 <h3 class="team-worker-title">Mark Guerrero</h3>
                 <p class="team-worker-text">Product Designer</p>
-                <ul class="team-worker-link" hidden>
-                  <li class="team-worker-account">
-                    <a href="https://instagram.com" target="_blank"
-                      ><img
-                        src="./images/team-account/instagram.img.png"
-                        alt="instagram logo"
-                    /></a>
-                  </li>
-                  <li class="team-worker-account">
-                    <a href="https://twitter.com" target="_blank">
-                      <img
-                        src="./images/team-account/twitter.img.png"
-                        alt="twitter logo"
-                      />
+                <ul class="team-list-link">
+                  <li class="team-link-item">
+                    <a
+                      class="team-link link"
+                      href="https://instagram.com"
+                      target="_blank"
+                      aria-label="instagram"
+                    >
+                      <svg class="team-icon" width="16" height="16">
+                        <use href="./images/sprite.svg#icon-instagram"></use>
+                      </svg>
                     </a>
                   </li>
-                  <li class="team-worker-account">
-                    <a href="https://facebook.com" target="_blank"
-                      ><img
-                        src="./images/team-account/facebook.img.png"
-                        alt="facebook logo"
-                    /></a>
+                  <li class="team-link-item">
+                    <a
+                      class="team-link link"
+                      href="https://twitter.com"
+                      target="_blank"
+                      aria-label="twitter"
+                    >
+                      <svg class="team-icon" width="16" height="16">
+                        <use href="./images/sprite.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
                   </li>
-                  <li class="team-worker-account">
-                    <a href="https://linkedin.com" target="_blank"
-                      ><img
-                        src="./images/team-account/linkedin.img.png"
-                        alt="linkedin logo"
-                    /></a>
+                  <li class="team-link-item">
+                    <a
+                      class="team-link link"
+                      href="https://facebook.com"
+                      target="_blank"
+                      aria-label="facebook"
+                    >
+                      <svg class="team-icon" width="16" height="16">
+                        <use href="./images/sprite.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-link-item">
+                    <a
+                      class="team-link link"
+                      href="https://linkedin.com"
+                      target="_blank"
+                      aria-label="linkedin"
+                    >
+                      <svg class="team-icon" width="16" height="16">
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -189,35 +230,54 @@
               <div class="team-worker-content">
                 <h3 class="team-worker-title">Tom Ford</h3>
                 <p class="team-worker-text">Frontend Developer</p>
-                <ul class="team-worker-link" hidden>
-                  <li class="team-worker-account">
-                    <a href="https://instagram.com" target="_blank"
-                      ><img
-                        src="./images/team-account/instagram.img.png"
-                        alt="instagram logo"
-                    /></a>
-                  </li>
-                  <li class="team-worker-account">
-                    <a href="https://twitter.com" target="_blank">
-                      <img
-                        src="./images/team-account/twitter.img.png"
-                        alt="twitter logo"
-                      />
+                <ul class="team-list-link">
+                  <li class="team-link-item">
+                    <a
+                      class="team-link link"
+                      href="https://instagram.com"
+                      target="_blank"
+                      aria-label="instagram"
+                    >
+                      <svg class="team-icon" width="16" height="16">
+                        <use href="./images/sprite.svg#icon-instagram"></use>
+                      </svg>
                     </a>
                   </li>
-                  <li class="team-worker-account">
-                    <a href="https://facebook.com" target="_blank"
-                      ><img
-                        src="./images/team-account/facebook.img.png"
-                        alt="facebook logo"
-                    /></a>
+                  <li class="team-link-item">
+                    <a
+                      class="team-link link"
+                      href="https://twitter.com"
+                      target="_blank"
+                      aria-label="twitter"
+                    >
+                      <svg class="team-icon" width="16" height="16">
+                        <use href="./images/sprite.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
                   </li>
-                  <li class="team-worker-account">
-                    <a href="https://linkedin.com" target="_blank"
-                      ><img
-                        src="./images/team-account/linkedin.img.png"
-                        alt="linkedin logo"
-                    /></a>
+                  <li class="team-link-item">
+                    <a
+                      class="team-link link"
+                      href="https://facebook.com"
+                      target="_blank"
+                      aria-label="facebook"
+                    >
+                      <svg class="team-icon" width="16" height="16">
+                        <use href="./images/sprite.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-link-item">
+                    <a
+                      class="team-link link"
+                      href="https://linkedin.com"
+                      target="_blank"
+                      aria-label="linkedin"
+                    >
+                      <svg class="team-icon" width="16" height="16">
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -232,35 +292,54 @@
               <div class="team-worker-content">
                 <h3 class="team-worker-title">Camila Garcia</h3>
                 <p class="team-worker-text">Marketing</p>
-                <ul class="team-worker-link" hidden>
-                  <li class="team-worker-account">
-                    <a href="https://instagram.com" target="_blank"
-                      ><img
-                        src="./images/team-account/instagram.img.png"
-                        alt="instagram logo"
-                    /></a>
-                  </li>
-                  <li class="team-worker-account">
-                    <a href="https://twitter.com" target="_blank">
-                      <img
-                        src="./images/team-account/twitter.img.png"
-                        alt="twitter logo"
-                      />
+                <ul class="team-list-link">
+                  <li class="team-link-item">
+                    <a
+                      class="team-link link"
+                      href="https://instagram.com"
+                      target="_blank"
+                      aria-label="instagram"
+                    >
+                      <svg class="team-icon" width="16" height="16">
+                        <use href="./images/sprite.svg#icon-instagram"></use>
+                      </svg>
                     </a>
                   </li>
-                  <li class="team-worker-account">
-                    <a href="https://facebook.com" target="_blank"
-                      ><img
-                        src="./images/team-account/facebook.img.png"
-                        alt="facebook logo"
-                    /></a>
+                  <li class="team-link-item">
+                    <a
+                      class="team-link link"
+                      href="https://twitter.com"
+                      target="_blank"
+                      aria-label="twitter"
+                    >
+                      <svg class="team-icon" width="16" height="16">
+                        <use href="./images/sprite.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
                   </li>
-                  <li class="team-worker-account">
-                    <a href="https://linkedin.com" target="_blank"
-                      ><img
-                        src="./images/team-account/linkedin.img.png"
-                        alt="linkedin logo"
-                    /></a>
+                  <li class="team-link-item">
+                    <a
+                      class="team-link link"
+                      href="https://facebook.com"
+                      target="_blank"
+                      aria-label="facebook"
+                    >
+                      <svg class="team-icon" width="16" height="16">
+                        <use href="./images/sprite.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-link-item">
+                    <a
+                      class="team-link link"
+                      href="https://linkedin.com"
+                      target="_blank"
+                      aria-label="linkedin"
+                    >
+                      <svg class="team-icon" width="16" height="16">
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -275,35 +354,54 @@
               <div class="team-worker-content">
                 <h3 class="team-worker-title">Daniel Wilson</h3>
                 <p class="team-worker-text">UI Designer</p>
-                <ul class="team-worker-link" hidden>
-                  <li class="team-worker-account">
-                    <a href="https://instagram.com" target="_blank"
-                      ><img
-                        src="./images/team-account/instagram.img.png"
-                        alt="instagram logo"
-                    /></a>
-                  </li>
-                  <li class="team-worker-account">
-                    <a href="https://twitter.com" target="_blank">
-                      <img
-                        src="./images/team-account/twitter.img.png"
-                        alt="twitter logo"
-                      />
+                <ul class="team-list-link">
+                  <li class="team-link-item">
+                    <a
+                      class="team-link link"
+                      href="https://instagram.com"
+                      target="_blank"
+                      aria-label="instagram"
+                    >
+                      <svg class="team-icon" width="16" height="16">
+                        <use href="./images/sprite.svg#icon-instagram"></use>
+                      </svg>
                     </a>
                   </li>
-                  <li class="team-worker-account">
-                    <a href="https://facebook.com" target="_blank"
-                      ><img
-                        src="./images/team-account/facebook.img.png"
-                        alt="facebook logo"
-                    /></a>
+                  <li class="team-link-item">
+                    <a
+                      class="team-link link"
+                      href="https://twitter.com"
+                      target="_blank"
+                      aria-label="twitter"
+                    >
+                      <svg class="team-icon" width="16" height="16">
+                        <use href="./images/sprite.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
                   </li>
-                  <li class="team-worker-account">
-                    <a href="https://linkedin.com" target="_blank"
-                      ><img
-                        src="./images/team-account/linkedin.img.png"
-                        alt="linkedin logo"
-                    /></a>
+                  <li class="team-link-item">
+                    <a
+                      class="team-link link"
+                      href="https://facebook.com"
+                      target="_blank"
+                      aria-label="facebook"
+                    >
+                      <svg class="team-icon" width="16" height="16">
+                        <use href="./images/sprite.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-link-item">
+                    <a
+                      class="team-link link"
+                      href="https://linkedin.com"
+                      target="_blank"
+                      aria-label="linkedin"
+                    >
+                      <svg class="team-icon" width="16" height="16">
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -372,6 +470,50 @@
           digital marketing & growth solutions.
         </p>
       </div>
+      <div class="container footer-container-socials">
+        <p class="footer-socials-text">Social media</p>
+        <ul class="footer-list-socials">
+          <li class="footer-socials-item">
+            <a class="footer-socials-link" href="" aria-label="instagram">
+              <svg class="footer-icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-socials-item">
+            <a class="footer-socials-link" href="" aria-label="twitter">
+              <svg class="footer-icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-socials-item">
+            <a class="footer-socials-link" href="" aria-label="facebook">
+              <svg class="footer-icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-socials-item">
+            <a class="footer-socials-link" href="" aria-label="linkedin">
+              <svg class="footer-icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
+    <!--Modal window-->
+    <div class="backdrop" data-modal>
+      <div class="modal">
+        <button class="modal-btn" type="button" data-modal-close>
+          <svg class="modal-icon" width="8" height="8">
+            <use href="./images/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
