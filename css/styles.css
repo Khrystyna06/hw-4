@@ -442,6 +442,7 @@ img {
     justify-content: center;
     gap: 24px;
     margin-bottom: 120px;
+    margin-top: 72px;
 
 }
 
@@ -517,6 +518,9 @@ img {
     margin-right: 120px;
 }
 
+.footer-container-socials {
+   
+}
 
 
 .footer-socials-text {
